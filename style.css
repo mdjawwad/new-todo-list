@@ -47,17 +47,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: rgb(214, 202, 185);
 }
 .table{
     width: 80%;
-    background-color: cornflowerblue;
-
+    background-color: rgb(184, 208, 252);
+   
+    
 
 }
-#tableBody{
-    padding-left: 50px;
-}
+
+
 #add{
     width: 100px;
     height: 5vh;
@@ -76,3 +76,21 @@
     border: none;
 
 }
+#add:hover{
+    background-color: rgb(214, 202, 185);
+}
+#clear:hover{
+    background-color: rgb(214, 202, 185);
+}
+
+.btn{
+    width:70px ;
+    height: 4vh;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.btn:hover{
+    background-color:rgb(214, 202, 185) ;
+}
+
